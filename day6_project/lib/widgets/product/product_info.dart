@@ -27,7 +27,7 @@ class ProductInfo extends StatelessWidget {
       style: TextStyle(
         fontFamily: 'SF Pro Rounded', // Custom font for smooth and modern look
         fontSize: 28,                 // Large font for title emphasis
-        fontWeight: FontWeight.w700,  // Bold weight for visual focus
+        fontWeight: FontWeight.w900,  // Bold weight for visual focus
         color: Colors.black,
         height: 1.2,
         letterSpacing: -0.3,

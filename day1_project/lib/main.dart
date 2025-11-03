@@ -34,11 +34,11 @@ class ProductScreen extends StatelessWidget {
             children: [
               // 🔹 Left-side Back Button
               _buildImageButton('assets/icons/back.png'),
+              _buildImageButton('assets/icons/heart.png'),
 
               // 🔹 Right-side Action Icons → Heart → Share → Cart
               Row(
                 children: [
-                  _buildImageButton('assets/icons/heart.png'),
                   const SizedBox(width: 12),
                   _buildImageButton('assets/icons/share.png'),
                   const SizedBox(width: 12),
